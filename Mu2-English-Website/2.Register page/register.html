@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mu2 register page</title>
+        <link rel="icon" href="../Images/log.png">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body background="../Images/minimalism-4k-for-mac-desktop-wallpaper-preview.jpg">
+
+        <!-- Heater content -->
+        <div id="mu2-1">
+            <h1>Register Page</h1>
+        </div><br><br>
+
+        <!-- Register Box -->
+        <div id="align">
+        <div class="relative"><br>
+            <h2>Fill the details</h2><br>
+            <div class="absolute">
+            <form action="#" method="POST">
+                <!-- Name -->
+                <label for="Name">Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </label>
+                <input type="text" name="firstname" placeholder="Enter your full name..." id="Name" required>
+                <br><br>
+                <!-- dob -->
+                <label for="DOB">Date of Birth&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="date" name="Date of Birth" id="DOB" required>
+                <br><br>
+                <!-- state -->
+                <label for="state">State&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <select name="state" id="state" required>
+                    <option value="state-select">Select your state</option>
+                    <option value="tamil-nadu">Tamil Nadu</option>
+                    <option value="kerala">Kerala</option>
+                    <option value="andhra">Andhra Pradesh</option>
+                    <option value="karnataka">Karnataka</option>
+                    <option value="others">Others</option>
+                </select>
+                <br><br>
+                <!-- gender -->
+                <label for="gen">Gender:&nbsp;&nbsp;</label>
+                <div class="bord">
+                <input type="radio" name="gender" id="gen" class="gen" value="Male"> Male &nbsp;&nbsp;
+                <input type="radio" name="gender" class="gen" value="Female"> Female
+                <br>
+                <input type="radio" name="gender" class="gen" value="Others"> Others&nbsp;&nbsp;<input type="text" name="gender" placeholder="if others, please specify..."></div>
+                <br><br><br><br><br>
+                <!-- email -->
+                <label for="Email">Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="email" name="email" placeholder="abc@gmail.com" id="Email" required>
+                <br><br>
+                <!-- number -->
+                <label for="num">Phone No &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="number" name="phone" placeholder="9876543210" id="num">
+                <br><br>
+                <!-- language -->
+                <label for="lan">Languages known:&nbsp;&nbsp;</label>
+                <div class="bord">
+                <input type="checkbox" name="choice" id="lan" class="lan" value="Tamil"> Tamil &nbsp;
+                <input type="checkbox" name="choice" class="lan" value="English"> English &nbsp;
+                <input type="checkbox" name="choice" class="lan" value="Hindi"> Hindi
+                <br>
+                <input type="checkbox" name="choice" class="lan" value="Telugu"> Telugu &nbsp;
+                <input type="checkbox" name="choice" class="lan" value="Malayalam"> Malayalam &nbsp;
+                <input type="checkbox" name="choice" class="lan" value="Kannadam"> Kannadam
+                </div>
+                <br><br><br><br>
+                <!-- username -->
+                <label for="user">Create Username&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="username" placeholder="Enter a valid username..." id="user" required>
+                <br><br>
+                <!-- password -->
+                <label for="password">Create Password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="password" name="password" id="password" placeholder="New password" required><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="password" name="password" id="conpass" placeholder="Confirm new password" required>
+                <br><br>
+                <p id="demo23">Incorrect Password</p>
+
+                <div class="sub1">
+                <input type="checkbox" name="choice"><span title="Mu2">I agree to the terms of service and privacy policy</span>
+                <br><br>
+                <div class="sub">
+                    <input type="button" value="Register" onclick="register()">
+                <input type="reset"></div>
+            </form>
+
+            <!-- Login page link -->
+            <p>Already have an account? <a href="../1.Login page/Mu2 login.html">Login</a></p>
+            </div>
+        </div></div></div>
+
+        <!-- popup message -->
+        <div id="signUp"><br><br><br>
+            <table id="tabappend1">
+                <tr>
+                    <th>Name</th>
+                    <th>DOB</th>
+                    <th>State</th>
+                    <th>Gender</th>
+                    <th>Email</th>
+                    <th>Phone No.</th>
+                    <th>Languages Known</th>
+                    <th>User Name</th>
+                    <th>Password</th>
+                </tr>
+            </table><br><br><br>
+            <p>Check the details. If the details are correct, go to <a href="../1.Login page/Mu2 login.html">Login</a></p>
+        </div>
+        <div id="overlay2"></div>
+
+        <script src="register1.js"></script>
+</body>
+</html>

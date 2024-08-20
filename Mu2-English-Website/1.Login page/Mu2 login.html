@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mu2 Login page</title>
+        <link rel="icon" href="../Images/log.png">
+        <link rel="stylesheet" type="text/css" href="Mu2 style.css">
+    </head>
+    <body align:center background="../Images/minimalism-4k-for-mac-desktop-wallpaper-preview.jpg">
+
+        <!-- Heater content -->
+        <div id="mu2-1">
+            <h1>Mu2 English</h1>
+            <h2>English Learning through Tamil</h2>
+        </div>
+        <br><br>
+
+        <!-- Login Box -->
+        <div id="align">
+        <div id="relative">
+            <h1>User Login</h1><br>
+            <div id="absolute">
+                <form>
+                    <br><input type="text" name="username" placeholder="Username">
+                    <br><br>
+                    <input type="text" name="password" placeholder="Password" id="pass">
+                    <br><br>
+                    <div id="sub">
+                        <input type="button" value="Login" onclick="sample()">
+                        <input type="reset"></div>
+                </form><br>
+                <div id="flex">
+                    <form action="#">
+                    <input type="checkbox" name="choice">Remember Me
+                    </form>
+                    <p></a><a onclick="forgot()">Forgot password?</a></p>
+                </div>
+
+        <!-- Register page link -->
+            <p>New User? <a href="../2.Register page/register.html">Register here</a></p></div>
+        </div></div>
+
+        <!-- popup message-->
+        <div id="popup1"><br><br><br><br><br>
+            <h3>Invalid Password. Please <a href="Mu2 login.html">Try again</a></h3>
+        </div>
+        <div id="popup2"><br><br><br><br><br>
+            <h3>Login Successful. <a href="../3.Home page/Home.html">Click Here</a></h3>
+        </div>
+        <div id="overlay1"></div>
+
+        <!-- forgot password -->
+        <div id="forgot"><br><br>
+            <h1>Password reset</h1>
+            <hr><br><br><br>
+            <form>
+                <input type="number" placeholder="Enter your Mobile No." required><br><br>
+                <div class="butt"><input type="button" value="Send OTP" onclick="otp()"></div>
+            
+                <div id="demo">
+                    <h3>0744</h3>
+                    <input type="number" placeholder="Enter OTP here" id="pass1" required><br><br>
+                    <div id="demo3"><input type="button" value="Submit" onclick="password2()"></div>
+                </div>
+            </form>
+            <p id="demo1"></p>
+        </div>
+        <div id="password1"><br><br><br>
+            <form>
+                <table>
+                    <tr>
+                        <th><label for="newpassword">New password</label></th>
+                        <td><input type="password" id="newpassword" placeholder="Enter New password"></td>
+                    </tr>
+                    <tr>
+                        <th><label for="repassword">Re-Enter password</label></th>
+                        <td><input type="text" id="repassword" placeholder="Re-enter New password"></td>
+                    </tr>
+                </table><br>
+                <div id="demo4"><input type="button" value="Save" onclick="passwordChange()"></div>
+            </form>
+            <p id="success">Password changed Successfully. Go to <a href="Mu2 login.html">Login</a></p>
+            <p id="fail">Incorrect password. Try again</p>
+        </div>
+
+        
+
+        <script src="Mu2 frame.js"></script>
+    </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mu2 Clothify Contact</title>
+        <link rel="icon" href="../Images/Mu2 Website Icon.png">
+        <link rel="stylesheet" href="style.css">
+
+    <!-- Google fonts (Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1>Clothify</h1>
+        <ul class="nav-ul">
+            <li class="nav-link"><a href="../Home page/index.html">Home</a></li>
+            <li class="nav-link"><a href="collection.html">Collections</a></li>
+            <li class="nav-link"><a href="../Contact page/contact.html">Contact</a></li>
+        </ul>
+
+        <div class="nav-font">
+            <i class="fa-solid fa-bars" onclick="sidenav()"></i>
+        </div>
+    </nav>
+
+    <!-- Side navbar -->
+    <div class="side-nav">
+        <p style="text-align: right;" onclick="closeSideNav()">
+            <i class="fa-sharp fa-regular fa-rectangle-xmark"></i>
+        </p>
+        <ul class="navbar-ul">
+            <li class="sidenav-link"><a href="../Home page/index.html">Home</a></li>
+            <li class="sidenav-link"><a href="../Collection page/collection.html">Collections</a></li>
+            <li class="sidenav-link"><a href="contact.html">Contact</a></li>
+        </ul>
+    </div><br><br>
+
+    <!-- Contact Us -->
+    <div class="contactUs">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="Name">Name</label><br>
+            <input type="text" id="Name" ><br><br>
+
+            <label for="Email">Email</label><br>
+            <input type="email" id="Email"><br><br>
+
+            <div>
+                <label for="Message">Message</label><br>
+                <input type="text" id="Message"><br><br>
+            </div>
+            
+            <button>Submit</button>
+        </form>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-container-1">
+            <div class="footer-box-1">
+                <h2 class="heading-text">Clothify</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <div class="footer-icon">
+                    <i class="fa-brands fa-instagram" style="color: #fff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #fff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #fff;"></i>
+                </div>
+            </div>
+        </div>
+
+        <p>@ 2024 clothify.com</p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

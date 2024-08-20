@@ -1,0 +1,109 @@
+body{
+    background-size: cover;
+    text-align: center;
+    color: black;
+}
+
+/* Heater content */
+#mu2-1{
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: whitesmoke;
+}
+
+/* Login Box */
+#align{
+    display: flex;
+    justify-content: center;
+}
+.relative{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    width: 640px; 
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.relative > .absolute{
+    padding: 20px 30px;
+    text-align: left;
+}
+.relative > .absolute > form > input{
+    border-radius: 7px;
+    padding: 3px 10px;
+    margin: 5px 0;
+    width: 255px;
+}
+.relative > .absolute > form >.bord > input, .bord{
+    border-radius: 7px;
+    padding: 3px 10px;
+    margin: 5px 0;
+}
+.relative > .absolute > form > .bord{
+    outline: 1px solid black;
+    float: right;
+}
+.relative > .absolute > form > input[id="DOB"]{
+    padding: 2px 10px;
+    width: 257px;
+}
+.relative > .absolute > form > select[id="state"]{
+    padding: 2px 10px;
+    outline: 1px solid black;
+    border-radius: 7px;
+    width: 280px;
+}
+.sub1,.sub{
+    text-align: center;
+}
+span[title="Mu2"] {
+    font-size: 12px;
+}
+.sub > input{
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 3px 10px;
+}
+a:hover{
+    color: green;
+    font-size: 20px;
+}
+a:active{
+    color: brown;
+}
+
+/* popup */
+#signUp{
+    background-color: white;
+    border-radius: 10px;
+    height: 500px; width: 800px;
+    position: absolute;
+    top: 60%;
+    right: 18%; 
+    z-index: 2;
+    padding: 0 50px;
+    display: none;
+}
+#overlay2{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 300px;
+    left: 0;
+    opacity: 0.8;
+    z-index: 1;
+    display: none;
+}
+#tabappend1,tr, td,th{
+    border: 1px solid black;
+}
+
+#demo23 {
+    display: none;
+    color: red;
+    text-align: center;
+}
